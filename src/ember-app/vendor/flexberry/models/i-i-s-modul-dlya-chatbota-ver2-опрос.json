@@ -1,0 +1,75 @@
+﻿{
+  "name": "IISModul_dlya_chatbota_ver2Опрос",
+  "modelName": "i-i-s-modul-dlya-chatbota-ver2-опрос",
+  "className": "Опрос",
+  "nameSpace": "IIS.Modul_dlya_chatbota_ver2",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "кодОпроса",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "наименование",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ОпросE",
+      "modelName": "i-i-s-modul-dlya-chatbota-ver2-опрос",
+      "attrs": [
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "кодОпроса",
+          "caption": "Код опроса",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ОпросL",
+      "modelName": "i-i-s-modul-dlya-chatbota-ver2-опрос",
+      "attrs": [
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "кодОпроса",
+          "caption": "Код опроса",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

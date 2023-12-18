@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Отдел",
+  "name": "IISModul_dlya_chatbota_ver2ОтделE",
+  "className": "ОтделE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-modul-dlya-chatbota-ver2-отдел",
+      "modelProjection": "ОтделE"
+    }
+  ]
+}

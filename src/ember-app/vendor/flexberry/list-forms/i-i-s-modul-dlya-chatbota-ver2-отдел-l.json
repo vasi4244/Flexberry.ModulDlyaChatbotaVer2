@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-modul-dlya-chatbota-ver2-отдел-e",
+  "editForm": "i-i-s-modul-dlya-chatbota-ver2-отдел-e",
+  "external": false,
+  "caption": "Отдел",
+  "name": "IISModul_dlya_chatbota_ver2ОтделL",
+  "className": "ОтделL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-modul-dlya-chatbota-ver2-отдел",
+      "modelProjection": "ОтделL"
+    }
+  ]
+}

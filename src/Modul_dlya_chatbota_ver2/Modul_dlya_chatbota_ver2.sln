@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul_dlya_chatbota_ver2.Objects", "Objects/Modul_dlya_chatbota_ver2.Objects.csproj", "714bb725-0039-4a0e-babf-67b480ee214d"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul_dlya_chatbota_ver2.Tests", "Tests/Modul_dlya_chatbota_ver2.Tests.csproj", "153bb5e7-2cad-432b-8278-a7088255d04c"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul_dlya_chatbota_ver2.ODataBackend", "ODataBackend/Modul_dlya_chatbota_ver2.ODataBackend.csproj", "588aaf99-e66e-49fb-bf39-6e39a2c8ea95"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul_dlya_chatbota_ver2.IntegrationTests", "IntegrationTests/Modul_dlya_chatbota_ver2.IntegrationTests.csproj", "4a374867-a4e9-4ebd-aa79-fb3ea880ef3c"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		714bb725-0039-4a0e-babf-67b480ee214d.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		714bb725-0039-4a0e-babf-67b480ee214d.Debug|Any CPU.Build.0 = Debug|Any CPU
+		714bb725-0039-4a0e-babf-67b480ee214d.Release|Any CPU.ActiveCfg = Release|Any CPU
+		714bb725-0039-4a0e-babf-67b480ee214d.Release|Any CPU.Build.0 = Release|Any CPU
+		153bb5e7-2cad-432b-8278-a7088255d04c.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		153bb5e7-2cad-432b-8278-a7088255d04c.Debug|Any CPU.Build.0 = Debug|Any CPU
+		153bb5e7-2cad-432b-8278-a7088255d04c.Release|Any CPU.ActiveCfg = Release|Any CPU
+		153bb5e7-2cad-432b-8278-a7088255d04c.Release|Any CPU.Build.0 = Release|Any CPU
+		588aaf99-e66e-49fb-bf39-6e39a2c8ea95.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		588aaf99-e66e-49fb-bf39-6e39a2c8ea95.Debug|Any CPU.Build.0 = Debug|Any CPU
+		588aaf99-e66e-49fb-bf39-6e39a2c8ea95.Release|Any CPU.ActiveCfg = Release|Any CPU
+		588aaf99-e66e-49fb-bf39-6e39a2c8ea95.Release|Any CPU.Build.0 = Release|Any CPU
+		4a374867-a4e9-4ebd-aa79-fb3ea880ef3c.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		4a374867-a4e9-4ebd-aa79-fb3ea880ef3c.Debug|Any CPU.Build.0 = Debug|Any CPU
+		4a374867-a4e9-4ebd-aa79-fb3ea880ef3c.Release|Any CPU.ActiveCfg = Release|Any CPU
+		4a374867-a4e9-4ebd-aa79-fb3ea880ef3c.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

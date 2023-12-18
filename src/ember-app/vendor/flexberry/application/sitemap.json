@@ -1,0 +1,65 @@
+﻿{
+  "applicationCaption": "Modul_dlya_chatbota_ver2",
+  "applicationTitle": "Modul_dlya_chatbota_ver2",
+  "items": [
+    {
+      "link": null,
+      "menuName": "кадры",
+      "caption": "Кадры",
+      "title": "Кадры",
+      "children": [
+        {
+          "link": "i-i-s-modul-dlya-chatbota-ver2-отдел-l",
+          "menuName": null,
+          "caption": "Отдел",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-modul-dlya-chatbota-ver2-должность-l",
+          "menuName": null,
+          "caption": "Должность",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-modul-dlya-chatbota-ver2-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "модуль-для-чат-бота",
+      "caption": "Модуль для чат-бота",
+      "title": "Модуль для чат-бота",
+      "children": [
+        {
+          "link": "i-i-s-modul-dlya-chatbota-ver2-анкетирование-l",
+          "menuName": null,
+          "caption": "Анкетирование",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-modul-dlya-chatbota-ver2-опрос-l",
+          "menuName": null,
+          "caption": "Опрос",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-modul-dlya-chatbota-ver2-настройка-опр-l",
+          "menuName": null,
+          "caption": "Настройка опр",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

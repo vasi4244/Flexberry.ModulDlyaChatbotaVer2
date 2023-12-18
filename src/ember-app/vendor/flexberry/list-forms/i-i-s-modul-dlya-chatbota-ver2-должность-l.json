@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-modul-dlya-chatbota-ver2-должность-e",
+  "editForm": "i-i-s-modul-dlya-chatbota-ver2-должность-e",
+  "external": false,
+  "caption": "Должность",
+  "name": "IISModul_dlya_chatbota_ver2ДолжностьL",
+  "className": "ДолжностьL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-modul-dlya-chatbota-ver2-должность",
+      "modelProjection": "ДолжностьL"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+﻿{
+  "name": "IISModul_dlya_chatbota_ver2Отдел",
+  "modelName": "i-i-s-modul-dlya-chatbota-ver2-отдел",
+  "className": "Отдел",
+  "nameSpace": "IIS.Modul_dlya_chatbota_ver2",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "кодОтдела",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "наименование",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ОтделE",
+      "modelName": "i-i-s-modul-dlya-chatbota-ver2-отдел",
+      "attrs": [
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "кодОтдела",
+          "caption": "Код отдела",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ОтделL",
+      "modelName": "i-i-s-modul-dlya-chatbota-ver2-отдел",
+      "attrs": [
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "кодОтдела",
+          "caption": "Код отдела",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

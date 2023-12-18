@@ -1,0 +1,60 @@
+﻿{
+  "name": "IISModul_dlya_chatbota_ver2Список",
+  "modelName": "i-i-s-modul-dlya-chatbota-ver2-список",
+  "className": "Список",
+  "nameSpace": "IIS.Modul_dlya_chatbota_ver2",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сотрудники",
+      "relatedTo": "i-i-s-modul-dlya-chatbota-ver2-сотрудники",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "анкетирование",
+      "relatedTo": "i-i-s-modul-dlya-chatbota-ver2-анкетирование",
+      "inverse": "список"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СписокE",
+      "modelName": "i-i-s-modul-dlya-chatbota-ver2-список",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": "Фамилия",
+          "lookupValueField": "фамилия",
+          "relationName": "Сотрудники",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фамилия",
+              "caption": "Фамилия",
+              "hidden": true,
+              "index": 1
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Сотрудники",
+          "name": "сотрудники",
+          "relatedTo": "i-i-s-modul-dlya-chatbota-ver2-сотрудники",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

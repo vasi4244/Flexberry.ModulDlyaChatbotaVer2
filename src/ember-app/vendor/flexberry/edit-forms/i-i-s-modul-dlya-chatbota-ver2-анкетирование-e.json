@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Опрос",
+      "projection": "ОпросL",
+      "detailModelName": null
+    },
+    {
+      "master": "сотрудники",
+      "displayAttributeName": "фамилия",
+      "required": true,
+      "relationName": "Список.Сотрудники",
+      "projection": "СотрудникиL",
+      "detailModelName": "i-i-s-modul-dlya-chatbota-ver2-список"
+    }
+  ],
+  "external": false,
+  "caption": "Анкетирование",
+  "name": "IISModul_dlya_chatbota_ver2АнкетированиеE",
+  "className": "АнкетированиеE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-modul-dlya-chatbota-ver2-анкетирование",
+      "modelProjection": "АнкетированиеE"
+    }
+  ]
+}

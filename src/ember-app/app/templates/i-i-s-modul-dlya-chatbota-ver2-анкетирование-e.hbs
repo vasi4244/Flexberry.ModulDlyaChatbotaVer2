@@ -1,0 +1,70 @@
+<h3 class="ui header">{{t "forms.i-i-s-modul-dlya-chatbota-ver2-анкетирование-e.caption"}}</h3>
+
+<form class="ui form flexberry-vertical-form" role="form">
+  {{flexberry-error error=error}}
+  <div class="field">
+    <div class="flexberry-edit-panel">
+      {{#unless readonly}}
+        <button class="ui button save-button" {{action "save"}}>
+          {{t "forms.edit-form.save-button-text"}}
+        </button>
+        {{#unless model.isNew}}
+          <button class="ui button save-del-button" {{action "delete"}}>
+            {{t "forms.edit-form.delete-button-text"}}
+          </button>
+        {{/unless}}
+      {{/unless}}
+      <button class="ui button close-button" {{action "close"}}>
+        {{t "forms.edit-form.close-button-text"}}
+      </button>
+    </div>
+  </div>
+  <div class="field flexberry-validationsummary-container">
+    <div class="sixteen wide">
+      {{flexberry-validationsummary errors=(v-get validationObject "messages")}}
+    </div>
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-modul-dlya-chatbota-ver2-анкетирование-e.дата-caption"}}</label>
+    {{flexberry-simpledatetime
+      type="date"
+      readonly=readonly
+      value=model.дата
+      class=(if (v-get validationModel "дата" "isInvalid") "error")
+      data-test-i-i-s-modul-dlya-chatbota-ver2-анкетирование-e-дата=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "дата" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-modul-dlya-chatbota-ver2-анкетирование-e.опрос-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.опрос
+      displayAttributeName="наименование"
+      autocomplete=true
+      relationName="опрос"
+      projection="ОпросL"
+      title=(t "forms.i-i-s-modul-dlya-chatbota-ver2-анкетирование-e.опрос-caption")
+      readonly=readonly
+      componentName="опросLookup"
+      class=(if (v-get validationModel "опрос" "isInvalid") "error")
+      data-test-i-i-s-modul-dlya-chatbota-ver2-анкетирование-e-опрос=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "опрос" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-modul-dlya-chatbota-ver2-анкетирование-e.список-caption"}}</label>
+    {{flexberry-groupedit
+      componentName="списокGroupEdit"
+      mainModelProjection=modelProjection
+      modelProjection=modelProjection.attributes.список
+      content=model.список
+      readonly=readonly
+      orderable=false
+      class=(if (v-get validationModel "список" "isInvalid") "error")
+      data-test-i-i-s-modul-dlya-chatbota-ver2-анкетирование-e-список=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "список" "message")}}
+  </div>
+</form>

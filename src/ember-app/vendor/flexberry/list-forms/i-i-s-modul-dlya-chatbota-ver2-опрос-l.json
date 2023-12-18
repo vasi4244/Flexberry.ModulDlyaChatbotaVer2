@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-modul-dlya-chatbota-ver2-опрос-e",
+  "editForm": "i-i-s-modul-dlya-chatbota-ver2-опрос-e",
+  "external": false,
+  "caption": "Опрос",
+  "name": "IISModul_dlya_chatbota_ver2ОпросL",
+  "className": "ОпросL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-modul-dlya-chatbota-ver2-опрос",
+      "modelProjection": "ОпросL"
+    }
+  ]
+}

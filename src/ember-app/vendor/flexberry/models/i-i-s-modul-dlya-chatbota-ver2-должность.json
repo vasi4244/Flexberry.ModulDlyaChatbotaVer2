@@ -1,0 +1,75 @@
+﻿{
+  "name": "IISModul_dlya_chatbota_ver2Должность",
+  "modelName": "i-i-s-modul-dlya-chatbota-ver2-должность",
+  "className": "Должность",
+  "nameSpace": "IIS.Modul_dlya_chatbota_ver2",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "кодДол",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "наименование",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ДолжностьE",
+      "modelName": "i-i-s-modul-dlya-chatbota-ver2-должность",
+      "attrs": [
+        {
+          "name": "кодДол",
+          "caption": "Код дол",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ДолжностьL",
+      "modelName": "i-i-s-modul-dlya-chatbota-ver2-должность",
+      "attrs": [
+        {
+          "name": "кодДол",
+          "caption": "Код должности",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

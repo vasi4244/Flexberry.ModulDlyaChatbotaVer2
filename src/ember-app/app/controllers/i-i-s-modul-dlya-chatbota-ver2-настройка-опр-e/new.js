@@ -1,0 +1,4 @@
+import IISModul_dlya_chatbota_ver2НастройкаОпрEController from '../i-i-s-modul-dlya-chatbota-ver2-настройка-опр-e';
+
+var IISModul_dlya_chatbota_ver2НастройкаОпрENewController = IISModul_dlya_chatbota_ver2НастройкаОпрEController;
+export default IISModul_dlya_chatbota_ver2НастройкаОпрENewController;

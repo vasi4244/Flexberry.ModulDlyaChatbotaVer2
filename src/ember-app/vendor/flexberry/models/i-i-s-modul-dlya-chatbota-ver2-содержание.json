@@ -1,0 +1,93 @@
+﻿{
+  "name": "IISModul_dlya_chatbota_ver2Содержание",
+  "modelName": "i-i-s-modul-dlya-chatbota-ver2-содержание",
+  "className": "Содержание",
+  "nameSpace": "IIS.Modul_dlya_chatbota_ver2",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "вариант_1",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "вариант_2",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "вариант_3",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "вопрос",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "настройкаОпр",
+      "relatedTo": "i-i-s-modul-dlya-chatbota-ver2-настройка-опр",
+      "inverse": "содержание"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СодержаниеE",
+      "modelName": "i-i-s-modul-dlya-chatbota-ver2-содержание",
+      "attrs": [
+        {
+          "name": "вопрос",
+          "caption": "Вопрос",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "вариант_2",
+          "caption": "Вариант 1",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "вариант_3",
+          "caption": "Вариант 2",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "вариант_1",
+          "caption": "Вариант 3",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

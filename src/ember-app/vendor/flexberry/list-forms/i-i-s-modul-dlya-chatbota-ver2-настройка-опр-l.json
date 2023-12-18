@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-modul-dlya-chatbota-ver2-настройка-опр-e",
+  "editForm": "i-i-s-modul-dlya-chatbota-ver2-настройка-опр-e",
+  "external": false,
+  "caption": "Настройка опр",
+  "name": "IISModul_dlya_chatbota_ver2НастройкаОпрL",
+  "className": "НастройкаОпрL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-modul-dlya-chatbota-ver2-настройка-опр",
+      "modelProjection": "НастройкаОпрL"
+    }
+  ]
+}

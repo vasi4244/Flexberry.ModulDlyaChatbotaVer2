@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-modul-dlya-chatbota-ver2-анкетирование-e",
+  "editForm": "i-i-s-modul-dlya-chatbota-ver2-анкетирование-e",
+  "external": false,
+  "caption": "Анкетирование",
+  "name": "IISModul_dlya_chatbota_ver2АнкетированиеL",
+  "className": "АнкетированиеL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-modul-dlya-chatbota-ver2-анкетирование",
+      "modelProjection": "АнкетированиеL"
+    }
+  ]
+}

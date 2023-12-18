@@ -1,0 +1,4 @@
+import IISModul_dlya_chatbota_ver2АнкетированиеEController from '../i-i-s-modul-dlya-chatbota-ver2-анкетирование-e';
+
+var IISModul_dlya_chatbota_ver2АнкетированиеENewController = IISModul_dlya_chatbota_ver2АнкетированиеEController;
+export default IISModul_dlya_chatbota_ver2АнкетированиеENewController;
